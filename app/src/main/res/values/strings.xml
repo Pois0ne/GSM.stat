@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">GSMStat</string>
+    <string name="create_model">New Model</string>
+    <string name="create_phone">New Phone</string>
+    <string name="action_ok">OK</string>
+    <string name="action_cancel">Cancel</string>
+
+    <string name="phone_brand">Phone brand</string>
+    <string name="model_name">Model name</string>
+
+    <string name="phone_imei">IMEI</string>
+    <string name="phone_full_model">Full model</string>
+    <string name="phone_fault_type">Fault type</string>
+    <string name="phone_date">Date</string>
+    <string name="empty_list">No elements</string>
+    <string name="search_phone">Search phone</string>
+    <string name="save_phone">Save</string>
+
+    <string name="spent_on_parts">Spent</string>
+    <string name="repair_price">Price</string>
+
+
+
+
+
+</resources>
