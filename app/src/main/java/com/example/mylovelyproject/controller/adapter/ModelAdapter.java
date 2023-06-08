@@ -36,13 +36,13 @@ public class ModelAdapter extends ArrayAdapter<Model> {
             convertView = LayoutInflater.from(getContext()).inflate(R.layout.item_model, null);
         }
 
-        TextView noTextView = convertView.findViewById(R.id.ModelNameTextView);
-        TextView facultyTextView = convertView.findViewById(R.id.ModelNameTextView);
+        TextView brandTextView = convertView.findViewById(R.id.PhoneBrandTextView);
+        TextView modelTextView = convertView.findViewById(R.id.ModelNameTextView);
 
         Model model = getItem(position);
 
-        noTextView.setText(model.getBrand() != null ? model.getBrand() : "№ Unknown");
-        facultyTextView.setText(model.getModelName() != null ? model.getModelName() : "Faculty of Wonder");
+        brandTextView.setText(model.getBrand() != null ? model.getBrand() : "№ Unknown");
+        modelTextView.setText(model.getModelName() != null ? model.getModelName() : "Faculty of Wonder");
 
         ImageButton editGroupButton = convertView.findViewById(R.id.editModelButton);
         editGroupButton.setOnClickListener((v) -> {

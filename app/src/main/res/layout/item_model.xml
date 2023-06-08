@@ -7,7 +7,7 @@
     tools:context=".controller.ModelActivity" >
 
     <TextView
-        android:id="@+id/modelNameTextView"
+        android:id="@+id/PhoneBrandTextView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -31,7 +31,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/modelNameTextView" />
+        app:layout_constraintTop_toBottomOf="@+id/PhoneBrandTextView" />
 
     <ImageButton
         android:id="@+id/editModelButton"
@@ -39,7 +39,7 @@
         android:layout_height="44dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="4dp"
-        app:layout_constraintBottom_toTopOf="@+id/modelNameTextView"
+        app:layout_constraintBottom_toTopOf="@+id/PhoneBrandTextView"
         app:layout_constraintEnd_toStartOf="@+id/deleteModelButton"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
